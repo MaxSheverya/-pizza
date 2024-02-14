@@ -18,8 +18,7 @@ body{
     margin: 0 auto;
 
 }
-
-/* стилі для хедера */
+стилі для хедера
 .header {
     padding: 10px 0;
     background-color: rgb(221, 103, 82);
@@ -45,8 +44,7 @@ align-items: center;
 .header-link:hover, .header-list:focus {
     color: blanchedalmond;
 }
-
-/* стилі для головної секції */
+стилі для головної секції
 .hero {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -65,8 +63,7 @@ align-items: center;
 .hero-text {
     padding-bottom: 30px;
 }
-
-/* начинка */
+начинка
 .dought {
     background-color: rgb(255, 167, 123);
     padding-bottom: 50px;
@@ -88,8 +85,7 @@ align-items: center;
     padding-bottom: 25px;
     list-style: disc;
 }
-
-/* третя секція */
+третя секція
 .filling {
     padding-bottom: 50px;
     padding-top: 50px;
@@ -104,14 +100,12 @@ align-items: center;
     font-size: 30px;
     font-weight: 700;
     padding-bottom: 25px;
-
 }
 .filling-list {
     padding-bottom: 50px;
     padding-top: 50px;
 }
-
-/* footer */
+footer
 .footer {
     background-color: rgb(255, 167, 123);
     padding-bottom: 30px;
