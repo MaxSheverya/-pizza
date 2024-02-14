@@ -46,26 +46,107 @@ align-items: center;
 .header-link:hover, .header-list:focus {
     color: blanchedalmond;
 }
+/* стилі для головної секції */
+.hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.hero-title {
+    color:  rgb(113, 27, 12);
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.hero-text {
+    padding-bottom: 30px;
+}
+/* начинка */
+.dought {
+    background-color: rgb(255, 167, 123);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.dought-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.dought-title {
+    color:  rgb(113, 27, 12);
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.dought-list {
+    padding-left: 50px;
+    padding-bottom: 25px;
+    list-style: disc;
+}
+/* третя секція */
+.filling {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.filling-container {
+    display: flex;
+    align-items: center;
+    gap: 50px; 
+}
+.filling-title {
+    color:  rgb(113, 27, 12);
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 25px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.filling-list {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+/* footer */
+.footer {
+    background-color: rgb(255, 167, 123);
+    padding-bottom: 30px;
+    padding-top: 30px;
+} 
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text {
+    color: white;
+    font-size: 18px;
+}
+.footer-img {
+    width: 30px;
+    padding-left: 20px;
+}
+.pizza {
+    background-color: rgb(255, 167, 123);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.pizza-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pizza-title {
+    color:  rgb(113, 27, 12);
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.pizza-list{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
 
 
 
