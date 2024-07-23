@@ -95,6 +95,9 @@ align-items: center;
     align-items: center;
     gap: 50px; 
 }
+.filling-img {
+    width: 50%;
+}
 .filling-title {
     color:  rgb(113, 27, 12);
     font-size: 30px;
@@ -126,14 +129,11 @@ align-items: center;
     padding-left: 20px;
 }
 .pizza {
-    background-color: rgb(255, 167, 123);
     padding-bottom: 30px;
     padding-top: 30px;
 }
 .pizza-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 .pizza-title {
     color:  rgb(113, 27, 12);
