@@ -1,8 +1,4 @@
-h1,
-h2,
-h3,
-p,
-ul {
+h1, h2, h3, p, ul {
     margin: 0;
     padding: 20px;
 }
@@ -18,7 +14,6 @@ body {
 }
 
 .container {
-    width: 1200px;
     margin: 0 auto;
 
 }
@@ -120,7 +115,6 @@ li.header-item {
     display: flex;
     align-items: center;
     gap: 50px;
-    margin-top: 130px;
 }
 
 .filling-img {
@@ -136,12 +130,12 @@ li.header-item {
 
 .filling-list {
     padding-bottom: 50px;
-    padding-top: 50px;
+    margin-left: 20px;
 }
 
 /* footer */
 .footer {
-    background-color: rgb(255, 167, 123);
+    background-color: rgb(221, 103, 82);
     padding-bottom: 30px;
     padding-top: 30px;
 }
@@ -163,12 +157,15 @@ li.header-item {
 }
 
 .pizza {
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background: rgb(255, 167, 123);
 }
 
 .pizza-container {
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .pizza-title {
@@ -187,17 +184,31 @@ li.header-item {
     height: 550px;
     width: 550px;
 }
-
-.dough {
-    height: 550px;
-    width: 550px;
-}
-.dough-text {
-    width: 700px;
-}
-.dough-title{
-width: 700px;
+.dough-title {
+    padding-bottom: 50px;
+    color: rgb(113, 27, 12);
 }
 .dough-container {
     display: flex;
+    align-items: center;
+}
+.pizza-facts {
+    height: 550px;
+    width: 550px;
+}
+.p-1 {
+    margin: 0;
+    padding: 20px;
+}
+.dough-img {
+    height: 550px;
+    width: 550px;
+}
+.dough {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgb(255, 167, 123);
+}
+.dough-list {
+    margin-left: 20px;
 }
